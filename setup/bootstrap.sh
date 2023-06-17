@@ -27,7 +27,7 @@ function configureXinFinNode(){
     echo "Clone Xinfin Node"
 
     git clone https://github.com/XinFinOrg/XinFin-Node && cd XinFin-Node/$Network
-    sed -i "s/INSTANCE_NAME=XF_MasterNode/INSTANCE_NAME=${MasterNodeName}_XF/g" .env
+    sed -i "s/INSTANCE_NAME=XF_MasterNode/INSTANCE_NAME=${MasterNodeName}_BlocksScan.io/g" .env
 
 
     echo "Installing Docker"

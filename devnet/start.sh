@@ -25,7 +25,7 @@ netstats="${wallet}_${INSTANCE_IP}:xinfin_xdpos_hybrid_network_stats@devnetstats
 
 echo "Starting nodes with $bootnodes ..."
 
-XDC --ethstats ${netstats} --gcmode=archive \
+XDC --store-reward --ethstats ${netstats} --gcmode=archive \
 --bootnodes ${bootnodes} --syncmode ${NODE_TYPE} \
 --datadir /work/xdcchain --networkid 551 \
 -port 30304 --rpc --rpccorsdomain "*" --rpcaddr 0.0.0.0 \

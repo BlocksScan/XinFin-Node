@@ -73,12 +73,12 @@ https://user-images.githubusercontent.com/92325549/137086528-4a8c5c44-ce89-4a70-
 Bootstrap Command XinFin Node Setup:- 
 
 ```
-sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/XinFinOrg/XinFin-Node/master/setup/bootstrap.sh)" root
+sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/BlocksScan/XinFin-Node/master/setup/bootstrap.sh)" root
 ```
 
 Examples:- 
 ```
-$ sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/XinFinOrg/XinFin-Node/master/setup/bootstrap.sh)" root
+$ sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/BlocksScan/XinFin-Node/master/setup/bootstrap.sh)" root
 [sudo] password for user: 
 Please enter your XinFin Network (mainnet/testnet/devnet) :- mainnet
 Your running network is mainnet
@@ -90,7 +90,7 @@ Your Masternode Name is Demo_Server
 
 **For Testnet**
 ```
-sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/XinFinOrg/XinFin-Node/master/setup/bootstrap.sh)" root
+sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/BlocksScan/XinFin-Node/master/setup/bootstrap.sh)" root
 Please enter your XinFin Network (mainnet/testnet/devnet) :- testnet
 Your running network is testnet
 Please enter your XinFin MasterNode Name :- test01
@@ -99,7 +99,7 @@ Your Masternode Name is test01
 
 **For Devnet**
 ```
-sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/XinFinOrg/XinFin-Node/master/setup/bootstrap.sh)" root
+sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/BlocksScan/XinFin-Node/master/setup/bootstrap.sh)" root
 Please enter your XinFin Network (mainnet/testnet/devnet) :- devnet
 Your running network is devnet
 Please enter your XinFin MasterNode Name :- test01
